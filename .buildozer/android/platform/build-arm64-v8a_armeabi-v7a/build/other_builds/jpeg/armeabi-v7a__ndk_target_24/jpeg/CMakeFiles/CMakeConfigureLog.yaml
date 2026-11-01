@@ -1,0 +1,2423 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/"
+      - "/root/.buildozer/android/platform/android-sdk/tools/"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/user/.venv/bin/"
+      - "/home/user/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+    searched_directories:
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/uname"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/uname"
+      - "/root/.buildozer/android/platform/android-sdk/tools/uname"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/uname"
+      - "/home/user/.venv/bin/uname"
+      - "/home/user/.local/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/root/.buildozer/android/platform/android-ndk-r28c"
+        - "/root/.buildozer/android/platform/android-sdk/tools"
+        - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/user/.venv/bin"
+        - "/home/user/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "./install"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      The target system is: Android - 1 - armv7-a
+      The host system is: Linux - 6.18.54.1-microsoft-standard-WSL2 - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeUnixFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gmake"
+      - "make"
+      - "smake"
+    candidate_directories:
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sbin/"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/"
+      - "/root/.buildozer/android/platform/android-sdk/tools/"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/user/.venv/bin/"
+      - "/home/user/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/"
+      - "/usr/lib/arm-linux-androideabi/21/"
+    searched_directories:
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/gmake"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sbin/gmake"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/gmake"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/gmake"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/gmake"
+      - "/root/.buildozer/android/platform/android-sdk/tools/gmake"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/gmake"
+      - "/home/user/.venv/bin/gmake"
+      - "/home/user/.local/bin/gmake"
+      - "/usr/local/sbin/gmake"
+      - "/usr/local/bin/gmake"
+      - "/usr/sbin/gmake"
+    found: "/usr/bin/gmake"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/root/.buildozer/android/platform/android-ndk-r28c"
+        - "/root/.buildozer/android/platform/android-sdk/tools"
+        - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/user/.venv/bin"
+        - "/home/user/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "./install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/arm-linux-androideabi/21"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/root/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/root/.buildozer/android/platform/android-ndk-r28c"
+        - "/root/.buildozer/android/platform/android-sdk/tools"
+        - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/user/.venv/bin"
+        - "/home/user/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "./install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/arm-linux-androideabi/21"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/root/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang 
+      Build flags: -g;-DANDROID;-fdata-sections;-ffunction-sections;-funwind-tables;-fstack-protector-strong;-no-canonical-prefixes;-D_FORTIFY_SOURCE=2;-march=armv7-a;-mthumb;-Wformat;-Werror=format-security
+      Id flags: -c;--target=armv7-none-linux-androideabi21 
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+      
+      The C compiler identification is Clang, found in:
+        /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/4.2.3/CompilerIdC/CMakeCCompilerId.o
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld.lld"
+      - "ld"
+    candidate_directories:
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/"
+      - "/root/.buildozer/android/platform/android-sdk/tools/"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/user/.venv/bin/"
+      - "/home/user/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/"
+      - "/usr/lib/arm-linux-androideabi/21/"
+    found: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/root/.buildozer/android/platform/android-ndk-r28c"
+        - "/root/.buildozer/android/platform/android-sdk/tools"
+        - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/user/.venv/bin"
+        - "/home/user/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "./install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/arm-linux-androideabi/21"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/root/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-nm"
+      - "nm"
+    candidate_directories:
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/"
+      - "/root/.buildozer/android/platform/android-sdk/tools/"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/user/.venv/bin/"
+      - "/home/user/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/"
+      - "/usr/lib/arm-linux-androideabi/21/"
+    found: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-nm"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/root/.buildozer/android/platform/android-ndk-r28c"
+        - "/root/.buildozer/android/platform/android-sdk/tools"
+        - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/user/.venv/bin"
+        - "/home/user/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "./install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/arm-linux-androideabi/21"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/root/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objdump"
+      - "objdump"
+    candidate_directories:
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/"
+      - "/root/.buildozer/android/platform/android-sdk/tools/"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/user/.venv/bin/"
+      - "/home/user/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/"
+      - "/usr/lib/arm-linux-androideabi/21/"
+    found: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-objdump"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/root/.buildozer/android/platform/android-ndk-r28c"
+        - "/root/.buildozer/android/platform/android-sdk/tools"
+        - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/user/.venv/bin"
+        - "/home/user/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "./install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/arm-linux-androideabi/21"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/root/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-objcopy"
+      - "objcopy"
+    candidate_directories:
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/"
+      - "/root/.buildozer/android/platform/android-sdk/tools/"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/user/.venv/bin/"
+      - "/home/user/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/"
+      - "/usr/lib/arm-linux-androideabi/21/"
+    found: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-objcopy"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/root/.buildozer/android/platform/android-ndk-r28c"
+        - "/root/.buildozer/android/platform/android-sdk/tools"
+        - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/user/.venv/bin"
+        - "/home/user/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "./install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/arm-linux-androideabi/21"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/root/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-readelf"
+      - "readelf"
+    candidate_directories:
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/"
+      - "/root/.buildozer/android/platform/android-sdk/tools/"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/user/.venv/bin/"
+      - "/home/user/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/"
+      - "/usr/lib/arm-linux-androideabi/21/"
+    found: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-readelf"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/root/.buildozer/android/platform/android-ndk-r28c"
+        - "/root/.buildozer/android/platform/android-sdk/tools"
+        - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/user/.venv/bin"
+        - "/home/user/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "./install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/arm-linux-androideabi/21"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/root/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/"
+      - "/root/.buildozer/android/platform/android-sdk/tools/"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/user/.venv/bin/"
+      - "/home/user/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/"
+      - "/usr/lib/arm-linux-androideabi/21/"
+    found: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-dlltool"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/root/.buildozer/android/platform/android-ndk-r28c"
+        - "/root/.buildozer/android/platform/android-sdk/tools"
+        - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/user/.venv/bin"
+        - "/home/user/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "./install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/arm-linux-androideabi/21"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/root/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/"
+      - "/root/.buildozer/android/platform/android-sdk/tools/"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/user/.venv/bin/"
+      - "/home/user/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/"
+      - "/usr/lib/arm-linux-androideabi/21/"
+    found: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-addr2line"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/root/.buildozer/android/platform/android-ndk-r28c"
+        - "/root/.buildozer/android/platform/android-sdk/tools"
+        - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/user/.venv/bin"
+        - "/home/user/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "./install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/arm-linux-androideabi/21"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/root/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/"
+      - "/root/.buildozer/android/platform/android-sdk/tools/"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/user/.venv/bin/"
+      - "/home/user/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/"
+      - "/usr/lib/arm-linux-androideabi/21/"
+    searched_directories:
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/tapi"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/tapi"
+      - "/root/.buildozer/android/platform/android-sdk/tools/tapi"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/tapi"
+      - "/home/user/.venv/bin/tapi"
+      - "/home/user/.local/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/usr/bin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+      - "/usr/lib/arm-linux-androideabi/21/bin/tapi"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/tapi"
+      - "/usr/lib/arm-linux-androideabi/21/tapi"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/root/.buildozer/android/platform/android-ndk-r28c"
+        - "/root/.buildozer/android/platform/android-sdk/tools"
+        - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/user/.venv/bin"
+        - "/home/user/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "./install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/arm-linux-androideabi/21"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/root/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-19.0"
+      - "llvm-ar-19"
+      - "llvm-ar19"
+      - "llvm-ar"
+    candidate_directories:
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/"
+      - "/root/.buildozer/android/platform/android-sdk/tools/"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/user/.venv/bin/"
+      - "/home/user/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/"
+      - "/usr/lib/arm-linux-androideabi/21/"
+    searched_directories:
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar-19.0"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/llvm-ar-19.0"
+      - "/root/.buildozer/android/platform/android-sdk/tools/llvm-ar-19.0"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/llvm-ar-19.0"
+      - "/home/user/.venv/bin/llvm-ar-19.0"
+      - "/home/user/.local/bin/llvm-ar-19.0"
+      - "/usr/local/sbin/llvm-ar-19.0"
+      - "/usr/local/bin/llvm-ar-19.0"
+      - "/usr/sbin/llvm-ar-19.0"
+      - "/usr/bin/llvm-ar-19.0"
+      - "/sbin/llvm-ar-19.0"
+      - "/bin/llvm-ar-19.0"
+      - "/usr/lib/arm-linux-androideabi/21/bin/llvm-ar-19.0"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/llvm-ar-19.0"
+      - "/usr/lib/arm-linux-androideabi/21/llvm-ar-19.0"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar-19"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/llvm-ar-19"
+      - "/root/.buildozer/android/platform/android-sdk/tools/llvm-ar-19"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/llvm-ar-19"
+      - "/home/user/.venv/bin/llvm-ar-19"
+      - "/home/user/.local/bin/llvm-ar-19"
+      - "/usr/local/sbin/llvm-ar-19"
+      - "/usr/local/bin/llvm-ar-19"
+      - "/usr/sbin/llvm-ar-19"
+      - "/usr/bin/llvm-ar-19"
+      - "/sbin/llvm-ar-19"
+      - "/bin/llvm-ar-19"
+      - "/usr/lib/arm-linux-androideabi/21/bin/llvm-ar-19"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/llvm-ar-19"
+      - "/usr/lib/arm-linux-androideabi/21/llvm-ar-19"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar19"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/llvm-ar19"
+      - "/root/.buildozer/android/platform/android-sdk/tools/llvm-ar19"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/llvm-ar19"
+      - "/home/user/.venv/bin/llvm-ar19"
+      - "/home/user/.local/bin/llvm-ar19"
+      - "/usr/local/sbin/llvm-ar19"
+      - "/usr/local/bin/llvm-ar19"
+      - "/usr/sbin/llvm-ar19"
+      - "/usr/bin/llvm-ar19"
+      - "/sbin/llvm-ar19"
+      - "/bin/llvm-ar19"
+      - "/usr/lib/arm-linux-androideabi/21/bin/llvm-ar19"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/llvm-ar19"
+      - "/usr/lib/arm-linux-androideabi/21/llvm-ar19"
+    found: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/root/.buildozer/android/platform/android-ndk-r28c"
+        - "/root/.buildozer/android/platform/android-sdk/tools"
+        - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/user/.venv/bin"
+        - "/home/user/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "./install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/arm-linux-androideabi/21"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/root/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-19.0"
+      - "llvm-ranlib-19"
+      - "llvm-ranlib19"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/"
+      - "/root/.buildozer/android/platform/android-sdk/tools/"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/user/.venv/bin/"
+      - "/home/user/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/"
+      - "/usr/lib/arm-linux-androideabi/21/"
+    searched_directories:
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib-19.0"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/llvm-ranlib-19.0"
+      - "/root/.buildozer/android/platform/android-sdk/tools/llvm-ranlib-19.0"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/llvm-ranlib-19.0"
+      - "/home/user/.venv/bin/llvm-ranlib-19.0"
+      - "/home/user/.local/bin/llvm-ranlib-19.0"
+      - "/usr/local/sbin/llvm-ranlib-19.0"
+      - "/usr/local/bin/llvm-ranlib-19.0"
+      - "/usr/sbin/llvm-ranlib-19.0"
+      - "/usr/bin/llvm-ranlib-19.0"
+      - "/sbin/llvm-ranlib-19.0"
+      - "/bin/llvm-ranlib-19.0"
+      - "/usr/lib/arm-linux-androideabi/21/bin/llvm-ranlib-19.0"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/llvm-ranlib-19.0"
+      - "/usr/lib/arm-linux-androideabi/21/llvm-ranlib-19.0"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib-19"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/llvm-ranlib-19"
+      - "/root/.buildozer/android/platform/android-sdk/tools/llvm-ranlib-19"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/llvm-ranlib-19"
+      - "/home/user/.venv/bin/llvm-ranlib-19"
+      - "/home/user/.local/bin/llvm-ranlib-19"
+      - "/usr/local/sbin/llvm-ranlib-19"
+      - "/usr/local/bin/llvm-ranlib-19"
+      - "/usr/sbin/llvm-ranlib-19"
+      - "/usr/bin/llvm-ranlib-19"
+      - "/sbin/llvm-ranlib-19"
+      - "/bin/llvm-ranlib-19"
+      - "/usr/lib/arm-linux-androideabi/21/bin/llvm-ranlib-19"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/llvm-ranlib-19"
+      - "/usr/lib/arm-linux-androideabi/21/llvm-ranlib-19"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib19"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/llvm-ranlib19"
+      - "/root/.buildozer/android/platform/android-sdk/tools/llvm-ranlib19"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/llvm-ranlib19"
+      - "/home/user/.venv/bin/llvm-ranlib19"
+      - "/home/user/.local/bin/llvm-ranlib19"
+      - "/usr/local/sbin/llvm-ranlib19"
+      - "/usr/local/bin/llvm-ranlib19"
+      - "/usr/sbin/llvm-ranlib19"
+      - "/usr/bin/llvm-ranlib19"
+      - "/sbin/llvm-ranlib19"
+      - "/bin/llvm-ranlib19"
+      - "/usr/lib/arm-linux-androideabi/21/bin/llvm-ranlib19"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/llvm-ranlib19"
+      - "/usr/lib/arm-linux-androideabi/21/llvm-ranlib19"
+    found: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/root/.buildozer/android/platform/android-ndk-r28c"
+        - "/root/.buildozer/android/platform/android-sdk/tools"
+        - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/user/.venv/bin"
+        - "/home/user/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "./install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/arm-linux-androideabi/21"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/root/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:7 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-19.0"
+      - "clang-scan-deps-19"
+      - "clang-scan-deps19"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/"
+      - "/root/.buildozer/android/platform/android-sdk/tools/"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/user/.venv/bin/"
+      - "/home/user/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/"
+      - "/usr/lib/arm-linux-androideabi/21/"
+    searched_directories:
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-scan-deps-19.0"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/clang-scan-deps-19.0"
+      - "/root/.buildozer/android/platform/android-sdk/tools/clang-scan-deps-19.0"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/clang-scan-deps-19.0"
+      - "/home/user/.venv/bin/clang-scan-deps-19.0"
+      - "/home/user/.local/bin/clang-scan-deps-19.0"
+      - "/usr/local/sbin/clang-scan-deps-19.0"
+      - "/usr/local/bin/clang-scan-deps-19.0"
+      - "/usr/sbin/clang-scan-deps-19.0"
+      - "/usr/bin/clang-scan-deps-19.0"
+      - "/sbin/clang-scan-deps-19.0"
+      - "/bin/clang-scan-deps-19.0"
+      - "/usr/lib/arm-linux-androideabi/21/bin/clang-scan-deps-19.0"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/clang-scan-deps-19.0"
+      - "/usr/lib/arm-linux-androideabi/21/clang-scan-deps-19.0"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-scan-deps-19"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/clang-scan-deps-19"
+      - "/root/.buildozer/android/platform/android-sdk/tools/clang-scan-deps-19"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/clang-scan-deps-19"
+      - "/home/user/.venv/bin/clang-scan-deps-19"
+      - "/home/user/.local/bin/clang-scan-deps-19"
+      - "/usr/local/sbin/clang-scan-deps-19"
+      - "/usr/local/bin/clang-scan-deps-19"
+      - "/usr/sbin/clang-scan-deps-19"
+      - "/usr/bin/clang-scan-deps-19"
+      - "/sbin/clang-scan-deps-19"
+      - "/bin/clang-scan-deps-19"
+      - "/usr/lib/arm-linux-androideabi/21/bin/clang-scan-deps-19"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/clang-scan-deps-19"
+      - "/usr/lib/arm-linux-androideabi/21/clang-scan-deps-19"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-scan-deps19"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/clang-scan-deps19"
+      - "/root/.buildozer/android/platform/android-sdk/tools/clang-scan-deps19"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/clang-scan-deps19"
+      - "/home/user/.venv/bin/clang-scan-deps19"
+      - "/home/user/.local/bin/clang-scan-deps19"
+      - "/usr/local/sbin/clang-scan-deps19"
+      - "/usr/local/bin/clang-scan-deps19"
+      - "/usr/sbin/clang-scan-deps19"
+      - "/usr/bin/clang-scan-deps19"
+      - "/sbin/clang-scan-deps19"
+      - "/bin/clang-scan-deps19"
+      - "/usr/lib/arm-linux-androideabi/21/bin/clang-scan-deps19"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/clang-scan-deps19"
+      - "/usr/lib/arm-linux-androideabi/21/clang-scan-deps19"
+    found: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-scan-deps"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/root/.buildozer/android/platform/android-ndk-r28c"
+        - "/root/.buildozer/android/platform/android-sdk/tools"
+        - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/user/.venv/bin"
+        - "/home/user/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "./install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/arm-linux-androideabi/21"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/root/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-F0FT5Y"
+      binary: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-F0FT5Y"
+    cmakeVariables:
+      ANDROID_ABI: "armeabi-v7a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-F0FT5Y'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2e51b/fast
+        make -j4  -f CMakeFiles/cmTC_2e51b.dir/build.make CMakeFiles/cmTC_2e51b.dir/build
+        make[1]: Entering directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-F0FT5Y'
+        Building C object CMakeFiles/cmTC_2e51b.dir/CMakeCCompilerABI.c.o
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat   -fPIE   -v -MD -MT CMakeFiles/cmTC_2e51b.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_2e51b.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_2e51b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c
+        Android (13624864, +pgo, +bolt, +lto, +mlgo, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+        Target: armv7-none-linux-android21
+        Thread model: posix
+        InstalledDir: /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin
+         (in-process)
+         "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" -cc1 -triple thumbv7-none-linux-android21 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-F0FT5Y -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-F0FT5Y -resource-dir /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19 -dependency-file CMakeFiles/cmTC_2e51b.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_2e51b.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include -internal-isystem /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -ferror-limit 19 -femulated-tls -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_2e51b.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c
+        clang -cc1 version 19.0.1 based upon LLVM 19.0.1 default target x86_64-unknown-linux-gnu
+        ignoring nonexistent directory "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include"
+        ignoring nonexistent directory "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include
+         /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi
+         /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include
+        End of search list.
+        Linking C executable cmTC_2e51b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e51b.dir/link.txt --verbose=1
+        Android (13624864, +pgo, +bolt, +lto, +mlgo, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+        Target: armv7-none-linux-android21
+        Thread model: posix
+        InstalledDir: /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin
+         "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -EL -z now -z relro -z max-page-size=4096 -X --hash-style=both --eh-frame-hdr -m armelf_linux_eabi -pie -dynamic-linker /system/bin/linker -o cmTC_2e51b /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o -L/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/arm -L/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21 -L/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib -L/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_2e51b.dir/CMakeCCompilerABI.c.o /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments   -v CMakeFiles/cmTC_2e51b.dir/CMakeCCompilerABI.c.o -o cmTC_2e51b
+        make[1]: Leaving directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-F0FT5Y'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include]
+          add: [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi]
+          add: [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include] ==> [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include]
+        collapse include dir [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi] ==> [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi]
+        collapse include dir [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include] ==> [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+        implicit include dirs: [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include;/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi;/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-F0FT5Y']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2e51b/fast]
+        ignore line: [make -j4  -f CMakeFiles/cmTC_2e51b.dir/build.make CMakeFiles/cmTC_2e51b.dir/build]
+        ignore line: [make[1]: Entering directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-F0FT5Y']
+        ignore line: [Building C object CMakeFiles/cmTC_2e51b.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat   -fPIE   -v -MD -MT CMakeFiles/cmTC_2e51b.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_2e51b.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_2e51b.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
+        ignore line: [Android (13624864  +pgo  +bolt  +lto  +mlgo  based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)]
+        ignore line: [Target: armv7-none-linux-android21]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin]
+        ignore line: [ (in-process)]
+        ignore line: [ "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang" -cc1 -triple thumbv7-none-linux-android21 -emit-obj -mrelax-all -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=1 -target-cpu generic -target-feature +soft-float-abi -target-feature +vfp2 -target-feature +vfp2sp -target-feature +vfp3 -target-feature +vfp3d16 -target-feature +vfp3d16sp -target-feature +vfp3sp -target-feature -fp16 -target-feature -vfp4 -target-feature -vfp4d16 -target-feature -vfp4d16sp -target-feature -vfp4sp -target-feature -fp-armv8 -target-feature -fp-armv8d16 -target-feature -fp-armv8d16sp -target-feature -fp-armv8sp -target-feature -fullfp16 -target-feature +fp64 -target-feature +d32 -target-feature +neon -target-feature -sha2 -target-feature -aes -target-feature -fp16fml -target-abi aapcs-linux -mfloat-abi soft -debug-info-kind=constructor -dwarf-version=4 -debugger-tuning=gdb -fdebug-compilation-dir=/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-F0FT5Y -v -ffunction-sections -fdata-sections -fcoverage-compilation-dir=/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-F0FT5Y -resource-dir /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19 -dependency-file CMakeFiles/cmTC_2e51b.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_2e51b.dir/CMakeCCompilerABI.c.o -sys-header-deps -D ANDROID -D _FORTIFY_SOURCE=2 -isysroot /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -internal-isystem /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include -internal-isystem /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include -internal-externc-isystem /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi -internal-externc-isystem /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include -internal-externc-isystem /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -Wformat -ferror-limit 19 -femulated-tls -stack-protector 2 -fno-signed-char -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_2e51b.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
+        ignore line: [clang -cc1 version 19.0.1 based upon LLVM 19.0.1 default target x86_64-unknown-linux-gnu]
+        ignore line: [ignoring nonexistent directory "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/local/include"]
+        ignore line: [ignoring nonexistent directory "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/include]
+        ignore line: [ /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include/arm-linux-androideabi]
+        ignore line: [ /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Linking C executable cmTC_2e51b]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e51b.dir/link.txt --verbose=1]
+        ignore line: [Android (13624864  +pgo  +bolt  +lto  +mlgo  based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)]
+        ignore line: [Target: armv7-none-linux-android21]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin]
+        link line: [ "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -EL -z now -z relro -z max-page-size=4096 -X --hash-style=both --eh-frame-hdr -m armelf_linux_eabi -pie -dynamic-linker /system/bin/linker -o cmTC_2e51b /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o -L/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/arm -L/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21 -L/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi -L/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib -L/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib --build-id=sha1 --no-rosegment --no-undefined-version --fatal-warnings --no-undefined CMakeFiles/cmTC_2e51b.dir/CMakeCCompilerABI.c.o /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl -lc /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-arm-android.a -l:libunwind.a -ldl /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o]
+          arg [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld] ==> ignore
+          arg [--sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot] ==> ignore
+          arg [-EL] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-zmax-page-size=4096] ==> ignore
+          arg [-X] ==> ignore
+          arg [--hash-style=both] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [armelf_linux_eabi] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/system/bin/linker] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_2e51b] ==> ignore
+          arg [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o] ==> obj [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o]
+          arg [-L/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/arm] ==> dir [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/arm]
+          arg [-L/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21] ==> dir [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21]
+          arg [-L/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi] ==> dir [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi]
+          arg [-L/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib] ==> dir [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib]
+          arg [-L/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> dir [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+          arg [--build-id=sha1] ==> ignore
+          arg [--no-rosegment] ==> ignore
+          arg [--no-undefined-version] ==> ignore
+          arg [--fatal-warnings] ==> ignore
+          arg [--no-undefined] ==> ignore
+          arg [CMakeFiles/cmTC_2e51b.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-arm-android.a] ==> lib [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-arm-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [-lc] ==> lib [c]
+          arg [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-arm-android.a] ==> lib [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-arm-android.a]
+          arg [-l:libunwind.a] ==> lib [-l:libunwind.a]
+          arg [-ldl] ==> lib [dl]
+          arg [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o] ==> obj [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o]
+        linker tool for 'C': /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld
+        remove lib [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-arm-android.a]
+        remove lib [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/libclang_rt.builtins-arm-android.a]
+        collapse library dir [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/arm] ==> [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/arm]
+        collapse library dir [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21] ==> [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21]
+        collapse library dir [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi] ==> [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi]
+        collapse library dir [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/../lib] ==> [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+        collapse library dir [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib] ==> [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+        implicit libs: [-l:libunwind.a;dl;c;-l:libunwind.a;dl]
+        implicit objs: [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtbegin_dynamic.o;/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21/crtend_android.o]
+        implicit dirs: [/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/lib/clang/19/lib/linux/arm;/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi/21;/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib/arm-linux-androideabi;/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/usr/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:7 (project)"
+    message: |
+      Running the C compiler's linker: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/ld.lld" "-v"
+      LLD 19.0.1 (compatible with GNU linkers)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CheckIncludeFile.cmake:174 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CheckTypeSize.cmake:462 (check_include_file)"
+      - "CMakeLists.txt:353 (check_type_size)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-mC4gIV"
+      binary: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-mC4gIV"
+    cmakeVariables:
+      ANDROID_ABI: "armeabi-v7a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-mC4gIV'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5f191/fast
+        make -j4  -f CMakeFiles/cmTC_5f191.dir/build.make CMakeFiles/cmTC_5f191.dir/build
+        make[1]: Entering directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-mC4gIV'
+        Building C object CMakeFiles/cmTC_5f191.dir/CheckIncludeFile.c.o
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_5f191.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_5f191.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_5f191.dir/CheckIncludeFile.c.o -c /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-mC4gIV/CheckIncludeFile.c
+        Linking C executable cmTC_5f191
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f191.dir/link.txt --verbose=1
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_5f191.dir/CheckIncludeFile.c.o -o cmTC_5f191  -latomic -lm
+        make[1]: Leaving directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-mC4gIV'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CheckIncludeFile.cmake:174 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CheckTypeSize.cmake:463 (check_include_file)"
+      - "CMakeLists.txt:353 (check_type_size)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-EwUub2"
+      binary: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-EwUub2"
+    cmakeVariables:
+      ANDROID_ABI: "armeabi-v7a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-EwUub2'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_465fc/fast
+        make -j4  -f CMakeFiles/cmTC_465fc.dir/build.make CMakeFiles/cmTC_465fc.dir/build
+        make[1]: Entering directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-EwUub2'
+        Building C object CMakeFiles/cmTC_465fc.dir/CheckIncludeFile.c.o
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_465fc.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_465fc.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_465fc.dir/CheckIncludeFile.c.o -c /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-EwUub2/CheckIncludeFile.c
+        Linking C executable cmTC_465fc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_465fc.dir/link.txt --verbose=1
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_465fc.dir/CheckIncludeFile.c.o -o cmTC_465fc  -latomic -lm
+        make[1]: Leaving directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-EwUub2'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CheckIncludeFile.cmake:174 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CheckTypeSize.cmake:464 (check_include_file)"
+      - "CMakeLists.txt:353 (check_type_size)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-f6N1Ev"
+      binary: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-f6N1Ev"
+    cmakeVariables:
+      ANDROID_ABI: "armeabi-v7a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-f6N1Ev'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_51514/fast
+        make -j4  -f CMakeFiles/cmTC_51514.dir/build.make CMakeFiles/cmTC_51514.dir/build
+        make[1]: Entering directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-f6N1Ev'
+        Building C object CMakeFiles/cmTC_51514.dir/CheckIncludeFile.c.o
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_51514.dir/CheckIncludeFile.c.o -MF CMakeFiles/cmTC_51514.dir/CheckIncludeFile.c.o.d -o CMakeFiles/cmTC_51514.dir/CheckIncludeFile.c.o -c /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-f6N1Ev/CheckIncludeFile.c
+        Linking C executable cmTC_51514
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_51514.dir/link.txt --verbose=1
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_51514.dir/CheckIncludeFile.c.o -o cmTC_51514  -latomic -lm
+        make[1]: Leaving directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-f6N1Ev'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CheckTypeSize.cmake:348 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CheckTypeSize.cmake:481 (__check_type_size_impl)"
+      - "CMakeLists.txt:353 (check_type_size)"
+    checks:
+      - "Check size of size_t"
+    directories:
+      source: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-TLJCvh"
+      binary: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-TLJCvh"
+    cmakeVariables:
+      ANDROID_ABI: "armeabi-v7a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_SIZE_T"
+      cached: true
+      stdout: |
+        Change Dir: '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-TLJCvh'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_37b36/fast
+        make -j4  -f CMakeFiles/cmTC_37b36.dir/build.make CMakeFiles/cmTC_37b36.dir/build
+        make[1]: Entering directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-TLJCvh'
+        Building C object CMakeFiles/cmTC_37b36.dir/SIZE_T.c.o
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_37b36.dir/SIZE_T.c.o -MF CMakeFiles/cmTC_37b36.dir/SIZE_T.c.o.d -o CMakeFiles/cmTC_37b36.dir/SIZE_T.c.o -c /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-TLJCvh/SIZE_T.c
+        Linking C executable cmTC_37b36
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37b36.dir/link.txt --verbose=1
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_37b36.dir/SIZE_T.c.o -o cmTC_37b36  -latomic -lm
+        make[1]: Leaving directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-TLJCvh'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CheckTypeSize.cmake:348 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CheckTypeSize.cmake:481 (__check_type_size_impl)"
+      - "CMakeLists.txt:354 (check_type_size)"
+    checks:
+      - "Check size of unsigned long"
+    directories:
+      source: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-UZ5XUI"
+      binary: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-UZ5XUI"
+    cmakeVariables:
+      ANDROID_ABI: "armeabi-v7a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_UNSIGNED_LONG"
+      cached: true
+      stdout: |
+        Change Dir: '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-UZ5XUI'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3706c/fast
+        make -j4  -f CMakeFiles/cmTC_3706c.dir/build.make CMakeFiles/cmTC_3706c.dir/build
+        make[1]: Entering directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-UZ5XUI'
+        Building C object CMakeFiles/cmTC_3706c.dir/UNSIGNED_LONG.c.o
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_3706c.dir/UNSIGNED_LONG.c.o -MF CMakeFiles/cmTC_3706c.dir/UNSIGNED_LONG.c.o.d -o CMakeFiles/cmTC_3706c.dir/UNSIGNED_LONG.c.o -c /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-UZ5XUI/UNSIGNED_LONG.c
+        Linking C executable cmTC_3706c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3706c.dir/link.txt --verbose=1
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_3706c.dir/UNSIGNED_LONG.c.o -o cmTC_3706c  -latomic -lm
+        make[1]: Leaving directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-UZ5XUI'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:357 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_BUILTIN_CTZL"
+    directories:
+      source: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-cBZLYp"
+      binary: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-cBZLYp"
+    cmakeVariables:
+      ANDROID_ABI: "armeabi-v7a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_BUILTIN_CTZL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-cBZLYp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_21331/fast
+        make -j4  -f CMakeFiles/cmTC_21331.dir/build.make CMakeFiles/cmTC_21331.dir/build
+        make[1]: Entering directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-cBZLYp'
+        Building C object CMakeFiles/cmTC_21331.dir/src.c.o
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DHAVE_BUILTIN_CTZL  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_21331.dir/src.c.o -MF CMakeFiles/cmTC_21331.dir/src.c.o.d -o CMakeFiles/cmTC_21331.dir/src.c.o -c /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-cBZLYp/src.c
+        Linking C executable cmTC_21331
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21331.dir/link.txt --verbose=1
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_21331.dir/src.c.o -o cmTC_21331  -latomic -lm
+        make[1]: Leaving directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-cBZLYp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CheckIncludeFiles.cmake:201 (try_compile)"
+      - "CMakeLists.txt:366 (check_include_files)"
+    checks:
+      - "Looking for include file locale.h"
+    directories:
+      source: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-BThtcc"
+      binary: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-BThtcc"
+    cmakeVariables:
+      ANDROID_ABI: "armeabi-v7a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_LOCALE_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-BThtcc'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3148a/fast
+        make -j4  -f CMakeFiles/cmTC_3148a.dir/build.make CMakeFiles/cmTC_3148a.dir/build
+        make[1]: Entering directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-BThtcc'
+        Building C object CMakeFiles/cmTC_3148a.dir/HAVE_LOCALE_H.c.o
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_3148a.dir/HAVE_LOCALE_H.c.o -MF CMakeFiles/cmTC_3148a.dir/HAVE_LOCALE_H.c.o.d -o CMakeFiles/cmTC_3148a.dir/HAVE_LOCALE_H.c.o -c /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-BThtcc/HAVE_LOCALE_H.c
+        Linking C executable cmTC_3148a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3148a.dir/link.txt --verbose=1
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_3148a.dir/HAVE_LOCALE_H.c.o -o cmTC_3148a  -latomic -lm
+        make[1]: Leaving directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-BThtcc'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CheckIncludeFiles.cmake:201 (try_compile)"
+      - "CMakeLists.txt:368 (check_include_files)"
+    checks:
+      - "Looking for include file stdlib.h"
+    directories:
+      source: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-gFEZMR"
+      binary: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-gFEZMR"
+    cmakeVariables:
+      ANDROID_ABI: "armeabi-v7a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_STDLIB_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-gFEZMR'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0be28/fast
+        make -j4  -f CMakeFiles/cmTC_0be28.dir/build.make CMakeFiles/cmTC_0be28.dir/build
+        make[1]: Entering directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-gFEZMR'
+        Building C object CMakeFiles/cmTC_0be28.dir/HAVE_STDLIB_H.c.o
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_0be28.dir/HAVE_STDLIB_H.c.o -MF CMakeFiles/cmTC_0be28.dir/HAVE_STDLIB_H.c.o.d -o CMakeFiles/cmTC_0be28.dir/HAVE_STDLIB_H.c.o -c /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-gFEZMR/HAVE_STDLIB_H.c
+        Linking C executable cmTC_0be28
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0be28.dir/link.txt --verbose=1
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_0be28.dir/HAVE_STDLIB_H.c.o -o cmTC_0be28  -latomic -lm
+        make[1]: Leaving directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-gFEZMR'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CheckIncludeFiles.cmake:201 (try_compile)"
+      - "CMakeLists.txt:369 (check_include_files)"
+    checks:
+      - "Looking for include file sys/types.h"
+    directories:
+      source: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-mYxI9o"
+      binary: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-mYxI9o"
+    cmakeVariables:
+      ANDROID_ABI: "armeabi-v7a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "NEED_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-mYxI9o'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c89c6/fast
+        make -j4  -f CMakeFiles/cmTC_c89c6.dir/build.make CMakeFiles/cmTC_c89c6.dir/build
+        make[1]: Entering directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-mYxI9o'
+        Building C object CMakeFiles/cmTC_c89c6.dir/NEED_SYS_TYPES_H.c.o
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_c89c6.dir/NEED_SYS_TYPES_H.c.o -MF CMakeFiles/cmTC_c89c6.dir/NEED_SYS_TYPES_H.c.o.d -o CMakeFiles/cmTC_c89c6.dir/NEED_SYS_TYPES_H.c.o -c /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-mYxI9o/NEED_SYS_TYPES_H.c
+        Linking C executable cmTC_c89c6
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c89c6.dir/link.txt --verbose=1
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_c89c6.dir/NEED_SYS_TYPES_H.c.o -o cmTC_c89c6  -latomic -lm
+        make[1]: Leaving directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-mYxI9o'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CheckSymbolExists.cmake:193 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CheckSymbolExists.cmake:98 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:373 (check_symbol_exists)"
+    checks:
+      - "Looking for memset"
+    directories:
+      source: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-6KJl0y"
+      binary: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-6KJl0y"
+    cmakeVariables:
+      ANDROID_ABI: "armeabi-v7a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_MEMSET"
+      cached: true
+      stdout: |
+        Change Dir: '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-6KJl0y'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_34bdc/fast
+        make -j4  -f CMakeFiles/cmTC_34bdc.dir/build.make CMakeFiles/cmTC_34bdc.dir/build
+        make[1]: Entering directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-6KJl0y'
+        Building C object CMakeFiles/cmTC_34bdc.dir/CheckSymbolExists.c.o
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat   -fPIE -MD -MT CMakeFiles/cmTC_34bdc.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_34bdc.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_34bdc.dir/CheckSymbolExists.c.o -c /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-6KJl0y/CheckSymbolExists.c
+        Linking C executable cmTC_34bdc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_34bdc.dir/link.txt --verbose=1
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_34bdc.dir/CheckSymbolExists.c.o -o cmTC_34bdc  -latomic -lm
+        make[1]: Leaving directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-6KJl0y'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CheckSymbolExists.cmake:193 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CheckSymbolExists.cmake:98 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "CMakeLists.txt:374 (check_symbol_exists)"
+    checks:
+      - "Looking for memcpy"
+    directories:
+      source: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-vi7QOu"
+      binary: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-vi7QOu"
+    cmakeVariables:
+      ANDROID_ABI: "armeabi-v7a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_MEMCPY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-vi7QOu'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9c71e/fast
+        make -j4  -f CMakeFiles/cmTC_9c71e.dir/build.make CMakeFiles/cmTC_9c71e.dir/build
+        make[1]: Entering directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-vi7QOu'
+        Building C object CMakeFiles/cmTC_9c71e.dir/CheckSymbolExists.c.o
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat   -fPIE -MD -MT CMakeFiles/cmTC_9c71e.dir/CheckSymbolExists.c.o -MF CMakeFiles/cmTC_9c71e.dir/CheckSymbolExists.c.o.d -o CMakeFiles/cmTC_9c71e.dir/CheckSymbolExists.c.o -c /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-vi7QOu/CheckSymbolExists.c
+        Linking C executable cmTC_9c71e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9c71e.dir/link.txt --verbose=1
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_9c71e.dir/CheckSymbolExists.c.o -o cmTC_9c71e  -latomic -lm
+        make[1]: Leaving directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-vi7QOu'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CheckTypeSize.cmake:348 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CheckTypeSize.cmake:481 (__check_type_size_impl)"
+      - "CMakeLists.txt:380 (check_type_size)"
+    checks:
+      - "Check size of unsigned char"
+    directories:
+      source: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-sdw5T6"
+      binary: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-sdw5T6"
+    cmakeVariables:
+      ANDROID_ABI: "armeabi-v7a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_UNSIGNED_CHAR"
+      cached: true
+      stdout: |
+        Change Dir: '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-sdw5T6'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_47362/fast
+        make -j4  -f CMakeFiles/cmTC_47362.dir/build.make CMakeFiles/cmTC_47362.dir/build
+        make[1]: Entering directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-sdw5T6'
+        Building C object CMakeFiles/cmTC_47362.dir/UNSIGNED_CHAR.c.o
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_47362.dir/UNSIGNED_CHAR.c.o -MF CMakeFiles/cmTC_47362.dir/UNSIGNED_CHAR.c.o.d -o CMakeFiles/cmTC_47362.dir/UNSIGNED_CHAR.c.o -c /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-sdw5T6/UNSIGNED_CHAR.c
+        Linking C executable cmTC_47362
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47362.dir/link.txt --verbose=1
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_47362.dir/UNSIGNED_CHAR.c.o -o cmTC_47362  -latomic -lm
+        make[1]: Leaving directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-sdw5T6'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CheckTypeSize.cmake:348 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CheckTypeSize.cmake:481 (__check_type_size_impl)"
+      - "CMakeLists.txt:381 (check_type_size)"
+    checks:
+      - "Check size of unsigned short"
+    directories:
+      source: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-B7i1BP"
+      binary: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-B7i1BP"
+    cmakeVariables:
+      ANDROID_ABI: "armeabi-v7a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_UNSIGNED_SHORT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-B7i1BP'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_77818/fast
+        make -j4  -f CMakeFiles/cmTC_77818.dir/build.make CMakeFiles/cmTC_77818.dir/build
+        make[1]: Entering directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-B7i1BP'
+        Building C object CMakeFiles/cmTC_77818.dir/UNSIGNED_SHORT.c.o
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot   -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_77818.dir/UNSIGNED_SHORT.c.o -MF CMakeFiles/cmTC_77818.dir/UNSIGNED_SHORT.c.o.d -o CMakeFiles/cmTC_77818.dir/UNSIGNED_SHORT.c.o -c /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-B7i1BP/UNSIGNED_SHORT.c
+        Linking C executable cmTC_77818
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77818.dir/link.txt --verbose=1
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_77818.dir/UNSIGNED_SHORT.c.o -o cmTC_77818  -latomic -lm
+        make[1]: Leaving directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-B7i1BP'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:384 (check_c_source_compiles)"
+    checks:
+      - "Performing Test INCOMPLETE_TYPES"
+    directories:
+      source: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-VIP3BA"
+      binary: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-VIP3BA"
+    cmakeVariables:
+      ANDROID_ABI: "armeabi-v7a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "INCOMPLETE_TYPES"
+      cached: true
+      stdout: |
+        Change Dir: '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-VIP3BA'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_49f08/fast
+        make -j4  -f CMakeFiles/cmTC_49f08.dir/build.make CMakeFiles/cmTC_49f08.dir/build
+        make[1]: Entering directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-VIP3BA'
+        Building C object CMakeFiles/cmTC_49f08.dir/src.c.o
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DINCOMPLETE_TYPES  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_49f08.dir/src.c.o -MF CMakeFiles/cmTC_49f08.dir/src.c.o.d -o CMakeFiles/cmTC_49f08.dir/src.c.o -c /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-VIP3BA/src.c
+        Linking C executable cmTC_49f08
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49f08.dir/link.txt --verbose=1
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_49f08.dir/src.c.o -o cmTC_49f08  -latomic -lm
+        make[1]: Leaving directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-VIP3BA'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:442 (check_c_source_compiles)"
+    checks:
+      - "Performing Test INLINE_WORKS"
+    directories:
+      source: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-LCr6Vo"
+      binary: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-LCr6Vo"
+    cmakeVariables:
+      ANDROID_ABI: "armeabi-v7a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "INLINE_WORKS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-LCr6Vo'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_725f9/fast
+        make -j4  -f CMakeFiles/cmTC_725f9.dir/build.make CMakeFiles/cmTC_725f9.dir/build
+        make[1]: Entering directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-LCr6Vo'
+        Building C object CMakeFiles/cmTC_725f9.dir/src.c.o
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DINLINE_WORKS  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fPIE -MD -MT CMakeFiles/cmTC_725f9.dir/src.c.o -MF CMakeFiles/cmTC_725f9.dir/src.c.o.d -o CMakeFiles/cmTC_725f9.dir/src.c.o -c /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-LCr6Vo/src.c
+        Linking C executable cmTC_725f9
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_725f9.dir/link.txt --verbose=1
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_725f9.dir/src.c.o -o cmTC_725f9  -latomic -lm
+        make[1]: Leaving directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-LCr6Vo'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/share/cmake-4.2/Modules/CheckCSourceCompiles.cmake:103 (cmake_check_source_compiles)"
+      - "CMakeLists.txt:458 (check_c_source_compiles)"
+    checks:
+      - "Performing Test HAVE_VERSION_SCRIPT"
+    directories:
+      source: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Iwn3DC"
+      binary: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Iwn3DC"
+    cmakeVariables:
+      ANDROID_ABI: "armeabi-v7a"
+      ANDROID_ARM_MODE: "thumb"
+      ANDROID_ARM_NEON: "TRUE"
+      ANDROID_PIE: "TRUE"
+      ANDROID_PLATFORM: "android-21"
+      ANDROID_STL: "c++_static"
+      ANDROID_TOOLCHAIN: "clang"
+      CMAKE_CXX_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_COMPILER_TARGET: "armv7-none-linux-androideabi21"
+      CMAKE_C_FLAGS: "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security "
+      CMAKE_EXE_LINKER_FLAGS: "-static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments  "
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+    buildResult:
+      variable: "HAVE_VERSION_SCRIPT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Iwn3DC'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_073a4/fast
+        make -j4  -f CMakeFiles/cmTC_073a4.dir/build.make CMakeFiles/cmTC_073a4.dir/build
+        make[1]: Entering directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Iwn3DC'
+        Building C object CMakeFiles/cmTC_073a4.dir/src.c.o
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -DHAVE_VERSION_SCRIPT  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -Wl,--version-script,/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/conftest.map -fPIE -MD -MT CMakeFiles/cmTC_073a4.dir/src.c.o -MF CMakeFiles/cmTC_073a4.dir/src.c.o.d -o CMakeFiles/cmTC_073a4.dir/src.c.o -c /home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Iwn3DC/src.c
+        clang: warning: -Wl,--version-script,/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/conftest.map: 'linker' input unused [-Wunused-command-line-argument]
+        Linking C executable cmTC_073a4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_073a4.dir/link.txt --verbose=1
+        /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=armv7-none-linux-androideabi21 --sysroot=/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -Wl,--version-script,/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/conftest.map -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-rosegment -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments    CMakeFiles/cmTC_073a4.dir/src.c.o -o cmTC_073a4  -latomic -lm
+        make[1]: Leaving directory '/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/CMakeFiles/CMakeScratch/TryCompile-Iwn3DC'
+        
+      exitCode: 0
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:61 (_cmake_find_compiler)"
+      - "simd/CMakeLists.txt:202 (enable_language)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER"
+    description: "ASM compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang"
+    candidate_directories:
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+    found: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/root/.buildozer/android/platform/android-ndk-r28c"
+        - "/root/.buildozer/android/platform/android-sdk/tools"
+        - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/user/.venv/bin"
+        - "/home/user/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/arm-linux-androideabi/21"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/root/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "simd/CMakeLists.txt:202 (enable_language)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      Android (13624864, +pgo, +bolt, +lto, +mlgo, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+      Target: x86_64-unknown-linux-gnu
+      Thread model: posix
+      InstalledDir: /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1303 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "simd/CMakeLists.txt:202 (enable_language)"
+    message: |
+      Checking whether the ASM compiler is AppleClang using "--version" did not match "(Apple (clang|LLVM) version)":
+      Android (13624864, +pgo, +bolt, +lto, +mlgo, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+      Target: x86_64-unknown-linux-gnu
+      Thread model: posix
+      InstalledDir: /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1290 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "simd/CMakeLists.txt:202 (enable_language)"
+    message: |
+      Checking whether the ASM compiler is Clang using "--version" matched "(clang version)":
+      Android (13624864, +pgo, +bolt, +lto, +mlgo, based on r530567e) clang version 19.0.1 (https://android.googlesource.com/toolchain/llvm-project 97a699bf4812a18fb657c2779f5296a4ab2694d2)
+      Target: x86_64-unknown-linux-gnu
+      Thread model: posix
+      InstalledDir: /root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:26 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "simd/CMakeLists.txt:202 (enable_language)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_AR"
+    description: "LLVM archiver"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ar-"
+      - "llvm-ar-"
+      - "llvm-ar"
+      - "llvm-ar"
+    candidate_directories:
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/"
+      - "/root/.buildozer/android/platform/android-sdk/tools/"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/user/.venv/bin/"
+      - "/home/user/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/"
+      - "/usr/lib/arm-linux-androideabi/21/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install/bin/"
+      - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install/sbin/"
+      - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar-"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/llvm-ar-"
+      - "/root/.buildozer/android/platform/android-sdk/tools/llvm-ar-"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/llvm-ar-"
+      - "/home/user/.venv/bin/llvm-ar-"
+      - "/home/user/.local/bin/llvm-ar-"
+      - "/usr/local/sbin/llvm-ar-"
+      - "/usr/local/bin/llvm-ar-"
+      - "/usr/sbin/llvm-ar-"
+      - "/usr/bin/llvm-ar-"
+      - "/sbin/llvm-ar-"
+      - "/bin/llvm-ar-"
+      - "/usr/lib/arm-linux-androideabi/21/bin/llvm-ar-"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/llvm-ar-"
+      - "/usr/lib/arm-linux-androideabi/21/llvm-ar-"
+      - "/usr/local/bin/llvm-ar-"
+      - "/usr/local/sbin/llvm-ar-"
+      - "/usr/local/llvm-ar-"
+      - "/usr/bin/llvm-ar-"
+      - "/usr/sbin/llvm-ar-"
+      - "/usr/llvm-ar-"
+      - "/bin/llvm-ar-"
+      - "/sbin/llvm-ar-"
+      - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install/bin/llvm-ar-"
+      - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install/sbin/llvm-ar-"
+      - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install/llvm-ar-"
+      - "/usr/X11R6/bin/llvm-ar-"
+      - "/usr/X11R6/sbin/llvm-ar-"
+      - "/usr/X11R6/llvm-ar-"
+      - "/usr/pkg/bin/llvm-ar-"
+      - "/usr/pkg/sbin/llvm-ar-"
+      - "/usr/pkg/llvm-ar-"
+      - "/opt/bin/llvm-ar-"
+      - "/opt/sbin/llvm-ar-"
+      - "/opt/llvm-ar-"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar-"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/llvm-ar-"
+      - "/root/.buildozer/android/platform/android-sdk/tools/llvm-ar-"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/llvm-ar-"
+      - "/home/user/.venv/bin/llvm-ar-"
+      - "/home/user/.local/bin/llvm-ar-"
+      - "/usr/local/sbin/llvm-ar-"
+      - "/usr/local/bin/llvm-ar-"
+      - "/usr/sbin/llvm-ar-"
+      - "/usr/bin/llvm-ar-"
+      - "/sbin/llvm-ar-"
+      - "/bin/llvm-ar-"
+      - "/usr/lib/arm-linux-androideabi/21/bin/llvm-ar-"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/llvm-ar-"
+      - "/usr/lib/arm-linux-androideabi/21/llvm-ar-"
+      - "/usr/local/bin/llvm-ar-"
+      - "/usr/local/sbin/llvm-ar-"
+      - "/usr/local/llvm-ar-"
+      - "/usr/bin/llvm-ar-"
+      - "/usr/sbin/llvm-ar-"
+      - "/usr/llvm-ar-"
+      - "/bin/llvm-ar-"
+      - "/sbin/llvm-ar-"
+      - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install/bin/llvm-ar-"
+      - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install/sbin/llvm-ar-"
+      - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install/llvm-ar-"
+      - "/usr/X11R6/bin/llvm-ar-"
+      - "/usr/X11R6/sbin/llvm-ar-"
+      - "/usr/X11R6/llvm-ar-"
+      - "/usr/pkg/bin/llvm-ar-"
+      - "/usr/pkg/sbin/llvm-ar-"
+      - "/usr/pkg/llvm-ar-"
+      - "/opt/bin/llvm-ar-"
+      - "/opt/sbin/llvm-ar-"
+      - "/opt/llvm-ar-"
+    found: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ar"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/root/.buildozer/android/platform/android-ndk-r28c"
+        - "/root/.buildozer/android/platform/android-sdk/tools"
+        - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/user/.venv/bin"
+        - "/home/user/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/arm-linux-androideabi/21"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/root/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:38 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "simd/CMakeLists.txt:202 (enable_language)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_RANLIB"
+    description: "Generate index for LLVM archive"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "llvm-ranlib-"
+      - "llvm-ranlib-"
+      - "llvm-ranlib"
+      - "llvm-ranlib"
+    candidate_directories:
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/"
+      - "/root/.buildozer/android/platform/android-sdk/tools/"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/user/.venv/bin/"
+      - "/home/user/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/"
+      - "/usr/lib/arm-linux-androideabi/21/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install/bin/"
+      - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install/sbin/"
+      - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib-"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/llvm-ranlib-"
+      - "/root/.buildozer/android/platform/android-sdk/tools/llvm-ranlib-"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/llvm-ranlib-"
+      - "/home/user/.venv/bin/llvm-ranlib-"
+      - "/home/user/.local/bin/llvm-ranlib-"
+      - "/usr/local/sbin/llvm-ranlib-"
+      - "/usr/local/bin/llvm-ranlib-"
+      - "/usr/sbin/llvm-ranlib-"
+      - "/usr/bin/llvm-ranlib-"
+      - "/sbin/llvm-ranlib-"
+      - "/bin/llvm-ranlib-"
+      - "/usr/lib/arm-linux-androideabi/21/bin/llvm-ranlib-"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/llvm-ranlib-"
+      - "/usr/lib/arm-linux-androideabi/21/llvm-ranlib-"
+      - "/usr/local/bin/llvm-ranlib-"
+      - "/usr/local/sbin/llvm-ranlib-"
+      - "/usr/local/llvm-ranlib-"
+      - "/usr/bin/llvm-ranlib-"
+      - "/usr/sbin/llvm-ranlib-"
+      - "/usr/llvm-ranlib-"
+      - "/bin/llvm-ranlib-"
+      - "/sbin/llvm-ranlib-"
+      - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install/bin/llvm-ranlib-"
+      - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install/sbin/llvm-ranlib-"
+      - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install/llvm-ranlib-"
+      - "/usr/X11R6/bin/llvm-ranlib-"
+      - "/usr/X11R6/sbin/llvm-ranlib-"
+      - "/usr/X11R6/llvm-ranlib-"
+      - "/usr/pkg/bin/llvm-ranlib-"
+      - "/usr/pkg/sbin/llvm-ranlib-"
+      - "/usr/pkg/llvm-ranlib-"
+      - "/opt/bin/llvm-ranlib-"
+      - "/opt/sbin/llvm-ranlib-"
+      - "/opt/llvm-ranlib-"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib-"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/llvm-ranlib-"
+      - "/root/.buildozer/android/platform/android-sdk/tools/llvm-ranlib-"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/llvm-ranlib-"
+      - "/home/user/.venv/bin/llvm-ranlib-"
+      - "/home/user/.local/bin/llvm-ranlib-"
+      - "/usr/local/sbin/llvm-ranlib-"
+      - "/usr/local/bin/llvm-ranlib-"
+      - "/usr/sbin/llvm-ranlib-"
+      - "/usr/bin/llvm-ranlib-"
+      - "/sbin/llvm-ranlib-"
+      - "/bin/llvm-ranlib-"
+      - "/usr/lib/arm-linux-androideabi/21/bin/llvm-ranlib-"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/llvm-ranlib-"
+      - "/usr/lib/arm-linux-androideabi/21/llvm-ranlib-"
+      - "/usr/local/bin/llvm-ranlib-"
+      - "/usr/local/sbin/llvm-ranlib-"
+      - "/usr/local/llvm-ranlib-"
+      - "/usr/bin/llvm-ranlib-"
+      - "/usr/sbin/llvm-ranlib-"
+      - "/usr/llvm-ranlib-"
+      - "/bin/llvm-ranlib-"
+      - "/sbin/llvm-ranlib-"
+      - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install/bin/llvm-ranlib-"
+      - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install/sbin/llvm-ranlib-"
+      - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install/llvm-ranlib-"
+      - "/usr/X11R6/bin/llvm-ranlib-"
+      - "/usr/X11R6/sbin/llvm-ranlib-"
+      - "/usr/X11R6/llvm-ranlib-"
+      - "/usr/pkg/bin/llvm-ranlib-"
+      - "/usr/pkg/sbin/llvm-ranlib-"
+      - "/usr/pkg/llvm-ranlib-"
+      - "/opt/bin/llvm-ranlib-"
+      - "/opt/sbin/llvm-ranlib-"
+      - "/opt/llvm-ranlib-"
+    found: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/llvm-ranlib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/root/.buildozer/android/platform/android-ndk-r28c"
+        - "/root/.buildozer/android/platform/android-sdk/tools"
+        - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/user/.venv/bin"
+        - "/home/user/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/arm-linux-androideabi/21"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/root/.buildozer/android/platform/android-ndk-r28c"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/Clang-FindBinUtils.cmake:50 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "simd/CMakeLists.txt:202 (enable_language)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_CLANG_SCAN_DEPS"
+    description: "`clang-scan-deps` dependency scanner"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "clang-scan-deps-"
+      - "clang-scan-deps-"
+      - "clang-scan-deps"
+      - "clang-scan-deps"
+    candidate_directories:
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/"
+      - "/root/.buildozer/android/platform/android-sdk/tools/"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/"
+      - "/home/user/.venv/bin/"
+      - "/home/user/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/bin/"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/"
+      - "/usr/lib/arm-linux-androideabi/21/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install/bin/"
+      - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install/sbin/"
+      - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+    searched_directories:
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-scan-deps-"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/clang-scan-deps-"
+      - "/root/.buildozer/android/platform/android-sdk/tools/clang-scan-deps-"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/clang-scan-deps-"
+      - "/home/user/.venv/bin/clang-scan-deps-"
+      - "/home/user/.local/bin/clang-scan-deps-"
+      - "/usr/local/sbin/clang-scan-deps-"
+      - "/usr/local/bin/clang-scan-deps-"
+      - "/usr/sbin/clang-scan-deps-"
+      - "/usr/bin/clang-scan-deps-"
+      - "/sbin/clang-scan-deps-"
+      - "/bin/clang-scan-deps-"
+      - "/usr/lib/arm-linux-androideabi/21/bin/clang-scan-deps-"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/clang-scan-deps-"
+      - "/usr/lib/arm-linux-androideabi/21/clang-scan-deps-"
+      - "/usr/local/bin/clang-scan-deps-"
+      - "/usr/local/sbin/clang-scan-deps-"
+      - "/usr/local/clang-scan-deps-"
+      - "/usr/bin/clang-scan-deps-"
+      - "/usr/sbin/clang-scan-deps-"
+      - "/usr/clang-scan-deps-"
+      - "/bin/clang-scan-deps-"
+      - "/sbin/clang-scan-deps-"
+      - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install/bin/clang-scan-deps-"
+      - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install/sbin/clang-scan-deps-"
+      - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install/clang-scan-deps-"
+      - "/usr/X11R6/bin/clang-scan-deps-"
+      - "/usr/X11R6/sbin/clang-scan-deps-"
+      - "/usr/X11R6/clang-scan-deps-"
+      - "/usr/pkg/bin/clang-scan-deps-"
+      - "/usr/pkg/sbin/clang-scan-deps-"
+      - "/usr/pkg/clang-scan-deps-"
+      - "/opt/bin/clang-scan-deps-"
+      - "/opt/sbin/clang-scan-deps-"
+      - "/opt/clang-scan-deps-"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-scan-deps-"
+      - "/root/.buildozer/android/platform/android-ndk-r28c/clang-scan-deps-"
+      - "/root/.buildozer/android/platform/android-sdk/tools/clang-scan-deps-"
+      - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin/clang-scan-deps-"
+      - "/home/user/.venv/bin/clang-scan-deps-"
+      - "/home/user/.local/bin/clang-scan-deps-"
+      - "/usr/local/sbin/clang-scan-deps-"
+      - "/usr/local/bin/clang-scan-deps-"
+      - "/usr/sbin/clang-scan-deps-"
+      - "/usr/bin/clang-scan-deps-"
+      - "/sbin/clang-scan-deps-"
+      - "/bin/clang-scan-deps-"
+      - "/usr/lib/arm-linux-androideabi/21/bin/clang-scan-deps-"
+      - "/usr/lib/arm-linux-androideabi/21/sbin/clang-scan-deps-"
+      - "/usr/lib/arm-linux-androideabi/21/clang-scan-deps-"
+      - "/usr/local/bin/clang-scan-deps-"
+      - "/usr/local/sbin/clang-scan-deps-"
+      - "/usr/local/clang-scan-deps-"
+      - "/usr/bin/clang-scan-deps-"
+      - "/usr/sbin/clang-scan-deps-"
+      - "/usr/clang-scan-deps-"
+      - "/bin/clang-scan-deps-"
+      - "/sbin/clang-scan-deps-"
+      - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install/bin/clang-scan-deps-"
+      - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install/sbin/clang-scan-deps-"
+      - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install/clang-scan-deps-"
+      - "/usr/X11R6/bin/clang-scan-deps-"
+      - "/usr/X11R6/sbin/clang-scan-deps-"
+      - "/usr/X11R6/clang-scan-deps-"
+      - "/usr/pkg/bin/clang-scan-deps-"
+      - "/usr/pkg/sbin/clang-scan-deps-"
+      - "/usr/pkg/clang-scan-deps-"
+      - "/opt/bin/clang-scan-deps-"
+      - "/opt/sbin/clang-scan-deps-"
+      - "/opt/clang-scan-deps-"
+    found: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin/clang-scan-deps"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64"
+      ENV{PATH}:
+        - "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/bin"
+        - "/root/.buildozer/android/platform/android-ndk-r28c"
+        - "/root/.buildozer/android/platform/android-sdk/tools"
+        - "/root/.buildozer/android/platform/apache-ant-1.9.4/bin"
+        - "/home/user/.venv/bin"
+        - "/home/user/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+      CMAKE_INSTALL_PREFIX: "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/usr/lib/arm-linux-androideabi/21"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/usr"
+        - "/home/user/hostcwd/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/jpeg/armeabi-v7a__ndk_target_24/jpeg/install"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+      CMAKE_SYSROOT: "/root/.buildozer/android/platform/android-ndk-r28c/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+      CMAKE_FIND_ROOT_PATH: "/root/.buildozer/android/platform/android-ndk-r28c"
+...
